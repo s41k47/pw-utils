@@ -37,7 +37,7 @@ def gen_hash():
             print("\nBad algorithm :(\nTerminated ...\n")
             sys.exit()
 
-        f_open.write("hashes:\n" + " " * 4 + "-{ " + "username: " + user_name + ", " + "pwhash: " + pw_hash + " }" + "\n")
+        f_open.write("hashes:\n" + " " * 4 + "- { " + "username: " + user_name + ", " + "pwhash: " + pw_hash + " }" + "\n")
 
         add_or_out = input("Hit enter to do more or press 'E'/'e' to exit: ")
 
