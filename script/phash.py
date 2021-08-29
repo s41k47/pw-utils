@@ -3,7 +3,7 @@
 """
  AUTHOR         : SHIHAB ISTIAK SAIKAT
  CREATED        : 08-27-2021
- LAST MODIFIED  : MM-DD-YYYY
+ LAST MODIFIED  : 08-29-2021
  BACKGROUND     : I was studying ansible automation. That time I needed to generate
                   a list of Unix password hashes. Then I wrote the code ;)
 """
