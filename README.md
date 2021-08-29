@@ -13,3 +13,5 @@ Alternatively you can put phash.py in your $PATH and run from anywhere...
 
 1. On line 19, replace user_list with your variable name
 2. On line 41, replace username and pwhash with your required keyname.
+
+Alternatively you can manually edit your file that stored generated hashes
