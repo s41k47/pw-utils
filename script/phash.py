@@ -16,6 +16,7 @@ hash_algo = input("Choose a hashing algorithm ( 6 for SHA-512, 5 for SHA-256, 1 
 
 def gen_hash():
     f_open = open(file_path, 'a')
+    f_open.write("user_list:\n")
 
     while True:
         user_name = input("Please enter your username:\n>>> ")
@@ -37,7 +38,7 @@ def gen_hash():
             print("\nBad algorithm :(\nTerminated ...\n")
             sys.exit()
 
-        f_open.write("hashes:\n" + " " * 4 + "- { " + "username: " + user_name + ", " + "pwhash: " + pw_hash + " }" + "\n")
+        f_open.write(" " * 4 + "- { " + "username: " + user_name + ", " + "pwhash: " + pw_hash + " }" + "\n")
 
         add_or_out = input("Hit enter to do more or press 'E'/'e' to exit: ")
 
